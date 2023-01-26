@@ -75,7 +75,7 @@ kube_service_addresses: 10.100.0.0/16
 # internal network. When used, it will assign IP
 # addresses from this range to individual pods.
 # This network must be unused in your network infrastructure!
-kube_pods_subnet: 10.0.0.0/16
+kube_pods_subnet: 10.20.0.0/16
 
 # internal network node size allocation (optional). This is the size allocated
 # to each node for pod IP address allocation. Note that the number of pods per node is
